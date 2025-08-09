@@ -1,0 +1,2 @@
+# immortalwrtOverlay-forlocal
+为immortalwrt24.10.2准备的ib-overlay本地化编译文件，只记录了我修改的文件和脚本，ImageBuilder工具包并不在其中.你可以把它当做模板,适当修改,就能定制属于自己的固件了

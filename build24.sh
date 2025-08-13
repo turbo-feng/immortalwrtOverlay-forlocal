@@ -15,11 +15,9 @@ echo "编译固件大小为: $PROFILE MB"
 echo "Include Docker: $INCLUDE_DOCKER"
 
 echo "Create pppoe-settings"
-########mkdir -p  /home/build/immortalwrt/files/etc/config
 mkdir -p  ./files/etc/config
 
 # 创建pppoe配置文件 yml传入环境变量ENABLE_PPPOE等 写入配置文件 供99-custom.sh读取
-#########cat << EOF > /home/build/immortalwrt/files/etc/config/pppoe-settings
 cat << EOF > ./files/etc/config/pppoe-settings
 enable_pppoe=${ENABLE_PPPOE}
 pppoe_account=${PPPOE_ACCOUNT}

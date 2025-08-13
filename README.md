@@ -15,6 +15,6 @@ mv *.config .config / 2>/dev/null
 rm -rf tempdir
 
 mv imm.config .config
-build24.sh
+./build24.sh
 ```
 

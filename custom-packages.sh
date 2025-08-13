@@ -4,7 +4,7 @@
 # istore商店
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
 # 首页和网络向导
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 去广告adghome
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
 # 代理相关
@@ -18,28 +18,35 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-homeproxy-zh-cn"
 # VPN
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-tailscale-zh-cn"
-# 分区扩容 by sirpdboy 
+# 分区扩容 by sirpdboy
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-partexp-zh-cn"
-# 酷猫主题 by sirpdboy 
+# 酷猫 by sirpdboy
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-kucat"
-# 进阶设置 by sirpdboy 
+# 进阶设置 by sirpdboy
 # 当luci-app-advancedplus插件开启时 需排除冲突项 luci-app-argon-config和luci-i18n-argon-config-zh-cn 减号代表排除
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-advancedplus-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-argon-config"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-argon-config-zh-cn"
-# 网络测速 by sirpdboy 
+# 网络测速 by sirpdboy
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netspeedtest-zh-cn"
 # MosDNS
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
 # Turbo ACC 网络加速
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 应用过滤 openappfilter.com
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn"
-# 设置向导 by sirpdboy
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netwizard-zh-cn"
+# 设置向导 by sirpdboy 网络设置简化版
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netwizard-zh-cn"
+# lucky大吉-ddns反向代理 by sirpdboy
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-lucky-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES lucky"
+# 原定时设置的autotimeset的升级版 by sirpdboy
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-taskplan-zh-cn"

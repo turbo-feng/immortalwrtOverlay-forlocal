@@ -157,7 +157,12 @@ uci commit
 
 # 设置编译作者信息
 FILE_PATH="/etc/openwrt_release"
-NEW_DESCRIPTION="Packaged by wukongdaily"
+NEW_DESCRIPTION="by Turbo"
 sed -i "s/DISTRIB_DESCRIPTION='[^']*'/DISTRIB_DESCRIPTION='$NEW_DESCRIPTION'/" "$FILE_PATH"
+
+# 设置系统主机名
+HOST_PATH="/etc/config/system"
+NEW_HOSTNAME="TurboWRT"
+sed -i "s/option hostname .*/option hostname '$NEW_HOSTNAME'/" "$HOST_PATH"
 
 exit 0

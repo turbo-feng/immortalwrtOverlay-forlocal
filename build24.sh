@@ -82,8 +82,8 @@ PACKAGES="$PACKAGES luci-app-natmap"
 PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-app-ddns-go"
 # 跨平台链接下载
-PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
-PACKAGES="$PACKAGES luci-app-aria2"
+#PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+#PACKAGES="$PACKAGES luci-app-aria2"
 # 在线升级
 PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
 PACKAGES="$PACKAGES luci-app-attendedsysupgrade"

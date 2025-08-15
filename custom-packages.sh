@@ -45,7 +45,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netwizard-zh-cn"
 # lucky大吉-ddns反向代理 by sirpdboy
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-lucky-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES lucky"
 # 原定时设置的autotimeset的升级版 by sirpdboy
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-taskplan-zh-cn"

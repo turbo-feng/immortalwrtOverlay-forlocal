@@ -62,6 +62,8 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 ## PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+#迈络思cx4网卡驱动支持
+PACKAGES="$PACKAGES kmod-mlx5-core"
 # 文件管理器  可视化编辑器和下载删除
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐) 配合samba实现远程轻nas管理
